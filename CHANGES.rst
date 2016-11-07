@@ -131,6 +131,9 @@ New features:
 - Simplify generated Gruntfile.js (DRY)
   [jensens]
 
+- Adapt code and tests to the new indexing operations queueing.
+  Part of PLIP 1343: https://github.com/plone/Products.CMFPlone/issues/1343
+  [gforcada]
 
 Bug fixes:
 
