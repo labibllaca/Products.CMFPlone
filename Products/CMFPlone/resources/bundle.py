@@ -36,16 +36,12 @@ class Bundle(object):
             try:
                 return 'fs', resource.chooseContext().path
             except:
-                try:
-                    return 'fs', resource.context.path
-                except:
-                    try:
-                        if callable(resource):
-                            return None, None
-                        else:
-                            return None, None
-                    except:
-                        return None, None
+                pass
+            try:
+                return 'fs', resource.context.path
+            except:
+                pass
+            return None, None
         elif isinstance(resource, FilesystemFile):
             return 'fs', resource.path
         elif isinstance(resource, FileResource):
