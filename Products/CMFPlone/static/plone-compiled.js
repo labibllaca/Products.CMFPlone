@@ -18866,5 +18866,5 @@ require([
 
 });
 
-define("/home/_thet/data/dev/fhnw/plone/src/Products.CMFPlone/Products/CMFPlone/static/plone.js", function(){});
+define("/plone/plip1734thumbs/src/Products.CMFPlone/Products/CMFPlone/static/plone.js", function(){});
 
